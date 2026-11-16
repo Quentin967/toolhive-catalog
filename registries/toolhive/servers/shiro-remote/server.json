@@ -1,0 +1,136 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.github.stacklok": {
+        "https://api.meetshiro.com/mcp": {
+          "custom_metadata": {
+            "author": "Shiro",
+            "homepage": "https://meetshiro.com/agents/"
+          },
+          "overview": "## Shiro (Remote)\n\nShiro's official remote MCP server lets AI assistants work on a novel or non-fiction book in Shiro, a book-writing app, over a streamable HTTP transport with OAuth sign-in. Agents can read scenes and the outline, edit prose, fill characters and places in the project's World, check continuity, manage comments and snapshots, and export EPUB. Every change is kept in the project's History, where the writer can restore an earlier version. A free Shiro account is required.",
+          "status": "Active",
+          "tags": [
+            "remote",
+            "writing",
+            "books",
+            "novel",
+            "manuscript",
+            "oauth",
+            "productivity"
+          ],
+          "tier": "Official",
+          "tools": [
+            "account",
+            "adapt",
+            "adapt_read",
+            "alternatives",
+            "alternatives_read",
+            "book",
+            "book_read",
+            "check",
+            "comments",
+            "comments_read",
+            "compile",
+            "count",
+            "edit",
+            "entries",
+            "entries_read",
+            "export",
+            "export_read",
+            "feedback",
+            "fields",
+            "fields_read",
+            "files",
+            "files_read",
+            "folders",
+            "folders_read",
+            "goals",
+            "goals_read",
+            "history",
+            "history_read",
+            "import",
+            "import_read",
+            "inbox",
+            "inbox_read",
+            "labels",
+            "labels_read",
+            "language",
+            "language_read",
+            "maps",
+            "maps_read",
+            "media",
+            "media_read",
+            "members",
+            "members_read",
+            "memory",
+            "note",
+            "overview",
+            "pages",
+            "pages_read",
+            "passes",
+            "passes_read",
+            "pen_names",
+            "pen_names_read",
+            "project",
+            "project_read",
+            "proposals",
+            "proposals_read",
+            "publish",
+            "publish_read",
+            "read",
+            "readers",
+            "readers_read",
+            "replace_all",
+            "review",
+            "rhythm",
+            "rhythm_read",
+            "search",
+            "skill",
+            "skill_read",
+            "snapshots",
+            "snapshots_read",
+            "stash",
+            "stash_read",
+            "story",
+            "story_read",
+            "structure",
+            "style_sheet",
+            "style_sheet_read",
+            "suggestions",
+            "suggestions_read",
+            "translations",
+            "translations_read",
+            "trash",
+            "trash_read",
+            "whiteboard",
+            "whiteboard_read"
+          ]
+        }
+      }
+    }
+  },
+  "description": "Shiro's official remote MCP server for working on a book: scenes, outline, World, every change kept in History",
+  "icons": [
+    {
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "src": "https://raw.githubusercontent.com/stacklok/toolhive-registry/main/registries/toolhive/servers/shiro-remote/icon.svg"
+    }
+  ],
+  "name": "io.github.stacklok/shiro-remote",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meetshiro.com/mcp"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/meetshiro/shiro-mcp"
+  },
+  "title": "Shiro (Remote)",
+  "version": "1.0.0"
+}
